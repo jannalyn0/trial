@@ -1,0 +1,120 @@
+<html>
+
+<head>
+    <title>
+        4056775_Jannalyn_Assignment_2_
+    </title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.1/buzz.min.js"></script>
+ 
+    <style>
+        .row{
+            width:700px;
+            margin: 2px auto 2px auto ;
+        }
+        .image-container {
+            display: table-cell;
+            vertical-align: middle;
+            padding:3px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 style="color: white;">
+        hhhhh
+    </h1>
+
+    
+    <div class="row">
+        <div class="image-container">
+            <img id='house' img src="icons/Joo Chiat.png" height="200" 
+        onmouseover="this.src='icons/C_Joo Chiat.png'; height='220'"
+        onmouseout="this.src='icons/Joo Chiat.png';height='200'"> </div>
+        <div class="image-container">
+            <img id='sultan' img src="icons/Sultan.png" height="200" 
+            onmouseover="this.src='icons/c_Sultan.png'; height='220'"
+            onmouseout="this.src='icons/Sultan.png';height='200'"> </div>
+        <div class="image-container">
+            <img id='mbs' img src="icons/MBS.png" height="200"
+        onmouseover="this.src='icons/c_MBS.png'; height='220'"
+        onmouseout="this.src='icons/MBS.png';height='200'"> </div>
+
+    </div>
+
+
+    <div class="row">
+
+        <div class="image-container">
+             <img id='bird' img src="icons/Bird.png" height="200"
+        onmouseover="this.src='icons/c_Bird.png'; height='220'"
+        onmouseout="this.src='icons/Bird.png';height='200'"> </div>
+        <div class="image-container">
+            <img id='train' img src="icons/Train.png" height="205" 
+            onmouseover="this.src='icons/c_Train.png'; height='220'"
+            onmouseout="this.src='icons/Train.png';height='200'"> </div>
+        <div class="image-container">
+            <img id='flower' img src="icons/Flower.png" height="200" 
+        onmouseover="this.src='icons/c_Flower.png'; height='220'"
+        onmouseout="this.src='icons/Flower.png';height='200'"> </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="image-container">
+            <img id='cart' img src="icons/Shopping Cart.png" height="200"
+            onmouseover="this.src='icons/c_Shopping Cart.png'; height='220'"
+           onmouseout="this.src='icons/Shopping Cart.png';height='200'"> </div>
+        <div class="image-container">
+            <img id='coffee' img src="icons/Coffee.png" height="200"
+        onmouseover="this.src='icons/c_Coffee.png'; height='220'"
+        onmouseout="this.src='icons/Coffee.png';height='200'"> </div>
+        <div class="image-container">
+            <img id='crab' img src="icons/Crab.png" height="200"
+            onmouseover="this.src='icons/c_Crab.png'; height='220'"
+            onmouseout="this.src='icons/Crab.png';height='200'"> </div>
+
+    </div>
+
+        
+    <script>
+        var sound1 = new buzz.sound("sound/s_mbs.wav");
+        var sound2 = new buzz.sound("sound/s_sultan.wav");
+        var sound3 = new buzz.sound("sound/s_mbs.wav");
+        var sound4 = new buzz.sound("sound/s_bird.wav");
+        var sound5 = new buzz.sound("sound/s_train.wav");
+        var sound6 = new buzz.sound("sound/s_flower.wav");
+        var sound7 = new buzz.sound("sound/s_shopping.wav");
+        var sound8 = new buzz.sound("sound/s_coffee.wav");
+        var sound9 = new buzz.sound("sound/s_crab.wav");
+    
+        window.onload = function() {
+            document.getElementById('house').addEventListener('mouseover', function () {sound1.play();});  document.getElementById('house').addEventListener('mouseout', function () {sound1.pause();});  
+            document.getElementById('sultan').addEventListener('mouseover', function () {sound2.play();});  document.getElementById('sultan').addEventListener('mouseout', function () {sound2.pause();});
+            document.getElementById('mbs').addEventListener('mouseover', function () {sound3.play();});  document.getElementById('mbs').addEventListener('mouseout', function () {sound3.pause();});
+            document.getElementById('bird').addEventListener('mouseover', function () {sound4.play();});  document.getElementById('bird').addEventListener('mouseout', function () {sound4.pause();});
+            document.getElementById('train').addEventListener('mouseover', function () {sound5.play();});  document.getElementById('train').addEventListener('mouseout', function () {sound5.pause();});
+            document.getElementById('flower').addEventListener('mouseover', function () {sound6.play();});  document.getElementById('flower').addEventListener('mouseout', function () {sound6.pause();});
+            document.getElementById('cart').addEventListener('mouseover', function () {sound7.play();});  document.getElementById('cart').addEventListener('mouseout', function () {sound.pause();});    
+            document.getElementById('coffee').addEventListener('mouseover', function () {sound8.play();});  document.getElementById('coffee').addEventListener('mouseout', function () {sound8.pause();});
+            document.getElementById('crab').addEventListener('mouseover', function () {sound9.play();});  document.getElementById('crab').addEventListener('mouseout', function () {sound9.pause();});
+        }
+    
+    </script>
+ 
+    </body>
+
+
+
+
+</html>        
+
+
+
+        
+
+
+
+       
